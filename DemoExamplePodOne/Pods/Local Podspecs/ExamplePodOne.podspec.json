@@ -1,0 +1,25 @@
+{
+  "name": "ExamplePodOne",
+  "version": "0.1.0",
+  "summary": "examplePodOne",
+  "homepage": "https://github.com/jalopezcar/examplePodOne.git",
+  "license": "MIT",
+  "authors": {
+    "demo": "demo@demo.com"
+  },
+  "source": {
+    "git": "https://github.com/jalopezcar/examplePodOne.git",
+    "tag": "0.1.0"
+  },
+  "module_name": "ExamplePodOne",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 1.2"
+    ]
+  }
+}

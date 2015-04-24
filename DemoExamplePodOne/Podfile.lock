@@ -1,0 +1,17 @@
+PODS:
+  - Alamofire (1.2.1)
+  - ExamplePodOne (0.1.0):
+    - Alamofire (~> 1.2)
+
+DEPENDENCIES:
+  - ExamplePodOne (from `./..`)
+
+EXTERNAL SOURCES:
+  ExamplePodOne:
+    :path: "./.."
+
+SPEC CHECKSUMS:
+  Alamofire: 1acfdf179aff68b41a48dff70c1ac7fa263e2bcb
+  ExamplePodOne: 09a168f42f4af63f70501e98752071921dc98ec5
+
+COCOAPODS: 0.36.4
